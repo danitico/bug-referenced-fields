@@ -1,0 +1,9 @@
+{
+    "put": "id:mynamespace:album::dire-straits",
+    "fields": {
+        "name": "Dire Straits",
+        "artist": "Dire Straits",
+        "year": 1978,
+        "is_top": true
+    }
+}

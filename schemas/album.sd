@@ -1,0 +1,20 @@
+schema album {
+    document album {
+        field artist type string {
+            indexing: index | summary
+        }
+
+        field name type string {
+            indexing: index | summary
+        }
+
+        field year type int {
+            indexing: attribute | summary
+        }
+
+        field is_top type bool {
+            indexing: attribute | summary
+        }
+
+    }
+}

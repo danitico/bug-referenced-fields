@@ -1,0 +1,22 @@
+schema music {
+    document music {
+        field title type string {
+            indexing: index | summary
+        }
+
+        field score type int {
+            indexing: attribute | summary
+        }
+
+        field album type reference<album> {
+            indexing: attribute | summary
+        }
+    }
+
+    import field album.is_top as isTop {}
+    import field album.year as year {}
+
+    fieldset default {
+        fields: title
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "put": "id:mynamespace:music::sultans-of-swing",
+    "fields": {
+        "title": "Sultans of swing",
+        "score": 75,
+        "album": "id:mynamespace:album::dire-straits"
+    }
+}
